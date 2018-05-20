@@ -2,11 +2,11 @@ import 'babel-polyfill';
 import $ from 'jquery';
 import './https';
 import './ga';
-import './sw';
 import '../scss/app.scss';
 import './toc';
 import './offline';
 import './detect';
+import './sw';
 import './eggs';
 
 $('.button-collapse').sideNav();
