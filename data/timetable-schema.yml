@@ -1,0 +1,105 @@
+days:
+  - day: 1
+    timeslots:
+      - startTime: '09:30'
+        endTime: '10:00'
+        events:
+          - topic: false
+            display: Registration
+            venue:
+              name: Reception
+      - startTime: '10:00'
+        endTime: '10:30'
+        events:
+          - topic: false
+            display: Opening Ceremony
+            venue:
+              name: Charles K Kao Auditorium
+      - startTime: '10:30'
+        endTime: '11:00'
+        events:
+          - topic: true
+            display: Keynote1
+            venue:
+              name: Charles K Kao Auditorium
+            language: English
+            level: Beginner
+            speakers:
+              - name: foo
+                community: bar
+                country: United Nation
+              - name: hello
+                community: bar 2
+                country: United Nation
+      - startTime: '11:05'
+        endTime: '11:35'
+        events:
+          - topic: true
+            display: Sponsor Talk 1
+            venue:
+              name: Charles K Kao Auditorium
+            language: English
+            level: Beginner
+            speakers:
+              - name: foo
+                community: bar
+                country: United Nation
+      - startTime: '11:40'
+        endTime: '12:10'
+        events:
+          - topic: true
+            display: Talk 1
+            venue:
+              name: Charles K Kao Auditorium
+            language: English
+            level: Beginner
+            speakers:
+              - name: foo
+                community: bar
+                country: United Nation
+      - startTime: '12:15'
+        endTime: '12:45'
+        events:
+          - topic: true
+            display: Talk 2
+            venue:
+              name: Charles K Kao Auditorium
+            language: English
+            level: Beginner
+            speakers:
+              - name: foo
+                community: bar
+                country: United Nation
+      - startTime: '12:45'
+        endTime: '14:00'
+        events:
+          - topic: false
+            display: Lunch
+            venue: HKSTP
+      - startTime: '14:00'
+        endTime: '14:30'
+        events:
+          - topic: true
+            display: GCC plugins and the Linux Kernel
+            tags:
+              - Linux
+              - gcc
+            venue:
+              name: Conference Hall 4-5
+            language: English
+            level: Intermediate
+            speakers:
+              - name: foo
+                community: bar
+                country: United Nation
+          - topic: true
+            display: LikeCoin Blockchain
+            venue:
+              name: Conference Hall 6
+            language: Cantonese
+            level: Beginner
+            speakers:
+              - name: foo
+                community: bar
+                country: United Nation
+  - day: 2
